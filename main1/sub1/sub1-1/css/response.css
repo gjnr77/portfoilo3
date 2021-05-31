@@ -1,0 +1,23 @@
+@charset "utf=8";
+
+@media all and (max-width:1700px){
+    /* 메인1-서브1-1 섹션2 */
+    #wrap #sub.sub1-1 #section4 .wrap .gap .container .content {position:relative;width:80%;margin:0 auto;}
+}
+
+@media all and (max-width:1400px){
+    #wrap #sub.sub1-1 #section3 {width:100%;height:auto;}
+    #wrap #sub.sub1-1 #section3::before {height:50%;background:#f8f8f8;}
+    #wrap #sub.sub1-1 #section3 .wrap .gap .container .left {width:100%;float:none;}
+    #wrap #sub.sub1-1 #section3 .wrap .gap .container .right {width:100%;float:none;height:auto;}
+    #wrap #sub.sub1-1 #section3 .wrap .gap .container .right .txt-box {position:relative;padding:100px 0 50px 50px;width:100%;max-width:960px;height:50%;margin:0 auto;}
+    #wrap #sub.sub1-1 #section3 .wrap .gap .container .right .txt-box .bottom-box p {width:90%;}
+    #wrap #sub.sub1-1 #section3 .wrap .gap .container .right .txt-box .top-box::after {bottom:-35px;right:0%;transform:rotate(180deg);}
+    
+}
+
+@media all and (max-width:1200px){
+    #wrap #sub.sub1-1 #section3 .wrap .gap .container .right .txt-box .top-box::after {display:none;}
+    #wrap #sub.sub1-1 #section3 .wrap .gap .container .right .txt-box .top-box h3::before {display:none;}
+
+}
